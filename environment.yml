@@ -1,0 +1,19 @@
+name: ds_streamlit_dashboard
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - numpy
+  - scikit-learn
+  - seaborn
+  - matplotlib
+  - plotly
+  - streamlit
+  - openpyxl
+  - pillow
+  - pip:
+      - stqdm
+      - kaleido        # for plotly static export (PNG)
+
